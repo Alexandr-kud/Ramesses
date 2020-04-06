@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-SemiBold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/SourceSansPro-SemiBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/SourceSansPro-SemiBold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/SourceSansPro-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/SourceSansPro-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/SourceSansPro-SemiBold.svg#SourceSansPro-SemiBold') format('svg'); /* Legacy iOS */
+            font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/SourceSansPro-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/SourceSansPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/SourceSansPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/SourceSansPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg'); /* Legacy iOS */
+        font-weight: 400;    
+
+}
