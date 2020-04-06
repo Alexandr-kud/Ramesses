@@ -6,7 +6,7 @@
          url('../fonts/Montserrat-Bold.woff') format('woff'), /* Pretty Modern Browsers */
          url('../fonts/Montserrat-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('../fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg'); /* Legacy iOS */
-            font-weight: 700;
+    font-weight: 700;
 }
 
 @font-face {
@@ -17,7 +17,7 @@
          url('../fonts/SourceSansPro-SemiBold.woff') format('woff'), /* Pretty Modern Browsers */
          url('../fonts/SourceSansPro-SemiBold.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('../fonts/SourceSansPro-SemiBold.svg#SourceSansPro-SemiBold') format('svg'); /* Legacy iOS */
-            font-weight: 600;
+    font-weight: 600;
 }
 
 @font-face {
@@ -28,6 +28,6 @@
          url('../fonts/SourceSansPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
          url('../fonts/SourceSansPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('../fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg'); /* Legacy iOS */
-        font-weight: 400;    
+    font-weight: 400;    
 
 }
