@@ -6,15 +6,11 @@
 
 
 /*
-
     index.html
-
 */ 
 
 /*
-
     haedr start
-
 */ 
 .header {
     padding: 32px 0 94px;
@@ -76,6 +72,7 @@
 .choose {
     padding-top: 142px;
     padding-bottom: 108px;
+    
 }
 
 .choose__title {
@@ -94,12 +91,125 @@
     margin-bottom: 56px;
 }
 
+.soc {
+    position: absolute;
+    bottom: -100px;
+    right: 40px;
+    z-index: 2;
+    &__link {
+        margin-bottom: 20px;
+    }
+    &__link:last-child {
+        margin-bottom: 0;
+    }
+}
+
 // Header Choose / end
 
 /*
-
     haedr end
+*/ 
 
+/*
+    Services start
+*/ 
+
+.services {
+    padding: 110px 0 115px;
+    position: relative;
+    .services-img {
+        position: absolute;
+    }
+    .services-top-img {
+        top: 0;
+        left: 0;
+    }
+    .services-bottom-img {
+        bottom: 0;
+        right: 0;
+    }
+}
+
+// card services box
+
+.services__offer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services__box {
+    width: 570px;
+    height: 331px;
+    display: flex;
+    align-items: flex-end;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.leyar {
+    width: 100%;
+    height: 151px;
+    font-size: 25px;
+    padding: 30px;
+    color: #fff;
+    background: linear-gradient(180deg, #001517 0%, rgba(0, 21, 23, 0.3) 100%);
+    &__arrow {
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+    }
+    &__head {
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*
+    Services end
+*/ 
+
+/*
+    Advantages start
+*/ 
+
+.advantages {
+    padding: 153px 0 115px;
+    .section-title {
+        color: #fff;
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+    &__img {
+        margin-bottom: 30px;
+    }
+    &__link {
+        font-size: 25px;
+        font-weight: 400;
+        color: #fff;
+    }
+}
+
+/*
+    Advantages end
 */ 
 
 @import "media";

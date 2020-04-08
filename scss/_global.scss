@@ -37,7 +37,8 @@ a, a:active, a:focus {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
-    padding: 0 15px;
+	padding: 0 15px;
+	position: relative;
 }
 
 .current.menu__link::before {
@@ -185,3 +186,22 @@ $color-3: #DF7A03;
     Button / end
 
 */
+
+// Section title
+
+.section-title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	position: relative;
+	margin-bottom: 85px;
+	&::after {
+		position: absolute;
+		content: '';
+		width: 39px;
+		height: 3px;
+		background: #FF9F2F;
+		top: 50%;
+		margin-left: 15px;
+	}
+}
